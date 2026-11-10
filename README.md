@@ -1,3 +1,5 @@
+<img width="800" height="450" alt="ScreenRecording2026-11-11at00 23 23-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/457d327c-c4cb-406e-96b4-d1d74c69ae46" />
+
 # Traitcord PoC
 
 Traitcord inserts an interactive GPUI card into the onboarding view of Zed 1.27.0 on macOS ARM64. Zed lays out and paints the card and dispatches its button clicks. The agent rebuilds the card on each matching render and preserves the selected state across resize. [Verification](evidence/README.md)
