@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+exclude = ["ui-demo"]
+members = [
+    "crates/poc_injector",
+    "crates/poc_loader",
+    "crates/poc_mod_example",
+    "crates/poc_ui",
+]

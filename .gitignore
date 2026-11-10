@@ -1,0 +1,14 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+target/
+/zed/
+/gpui-calculator/
+/artifacts/
+*.app/
+*.dmg
+*.dylib
+*.dll
+*.exe
+*.so

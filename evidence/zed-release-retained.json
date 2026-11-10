@@ -1,0 +1,80 @@
+{
+  "source": "Frida messages from the original REA run",
+  "target": "Zed 1.27.0 (20261104.154313), macOS ARM64, locally signed copy",
+  "target_identity": "UUID reported by the agent. The observation did not carry an independently attested digest or OS/architecture.",
+  "experiment": "Native onboarding card, click, resize, and subsequent click",
+  "observation": "Agent reports an expanded render before resize and a collapsed render after the resized button accepts input. Render counters count matching hook invocations.",
+  "messages": [
+    {
+      "event": "zed-release-card-hook-installed",
+      "uuid": "d113655664ff3889b72d2ac16ac81b46"
+    },
+    {
+      "event": "zed-release-card-added"
+    },
+    {
+      "event": "zed-release-card-rendered",
+      "expanded": false,
+      "click": 0,
+      "render": 1
+    },
+    {
+      "event": "zed-card-input-probe-posted"
+    },
+    {
+      "event": "zed-release-card-clicked",
+      "expanded": true,
+      "click": 1
+    },
+    {
+      "event": "zed-release-card-rendered",
+      "expanded": true,
+      "click": 1,
+      "render": 33
+    },
+    {
+      "event": "zed-release-card-clicked",
+      "expanded": false,
+      "click": 2
+    },
+    {
+      "event": "zed-release-card-rendered",
+      "expanded": false,
+      "click": 2,
+      "render": 46
+    },
+    {
+      "event": "zed-release-card-clicked",
+      "expanded": true,
+      "click": 3
+    },
+    {
+      "event": "zed-release-card-rendered",
+      "expanded": true,
+      "click": 3,
+      "render": 48
+    },
+    {
+      "event": "zed-card-resize-probe-applied",
+      "width": 1260,
+      "height": 820
+    },
+    {
+      "event": "zed-card-input-probe-no-key-window"
+    },
+    {
+      "event": "zed-card-input-probe-posted"
+    },
+    {
+      "event": "zed-release-card-clicked",
+      "expanded": false,
+      "click": 4
+    },
+    {
+      "event": "zed-release-card-rendered",
+      "expanded": false,
+      "click": 4,
+      "render": 90
+    }
+  ]
+}
